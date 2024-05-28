@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerController playerController;
     private Vector2 direction;
     public LayerMask groundLayerMask;
-    Rigidbody rigidbody;
+    private Rigidbody rigidbody;
     void Start()
     {
         
@@ -40,7 +40,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnJump()
     {
-        Debug.Log(IsGrounded());
         if(IsGrounded()){
             rigidbody.AddForce(Vector3.up * GameManager.Instance.PlayerData.jumpPower, ForceMode.Impulse);
         }
