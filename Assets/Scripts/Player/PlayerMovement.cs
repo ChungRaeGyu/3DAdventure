@@ -64,4 +64,8 @@ public class PlayerMovement : MonoBehaviour
         }
         return false;
     }
+
+    public void OnJumpSpot(float Power){
+        rigidbody.AddForce(Vector3.up * Power, ForceMode.Impulse);
+    }
 }
