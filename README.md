@@ -27,6 +27,12 @@
 6. 아이템 사용
 - InventoryUI를 만들어서 UI에서 버튼을 이용하여 선택 후 선택된 아이템의 정보를 받아오고 사용하기 버튼을 이용하여 Player의 능력치가 오르게 만들었습니다.
   ![image](https://github.com/ChungRaeGyu/3DAdventure/assets/125470068/5ebf6fd1-735b-4f3f-a1e0-07be3f711553)
+### 선택구현
+1. 이동하는 플랫폼
+   - point를 배치한 후 Vector3.MoveToWards를 사용하였습니다.
+   - 플레이어가 떨어지지 않게 하기 위해서 이동하는 플랫폼의 방향과 속력을 플레이어에게 넘겨주어서 이동값에 추가해주었습니다.
+     ![image](https://github.com/ChungRaeGyu/3DAdventure/assets/125470068/b8256d96-ca7c-4522-892c-e3538af3ab7a)
+![image](https://github.com/ChungRaeGyu/3DAdventure/assets/125470068/b1f2ccad-fb11-4996-b7b4-19755341b961)
 
 
 
